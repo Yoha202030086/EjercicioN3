@@ -1,0 +1,15 @@
+InicioFactorial
+  Var facortial 
+  var numero 
+  Escribir "Digite un numero entero"
+  leer n;
+  fact<=1;
+  Si n=>0 Entonces 
+      Para I<=1 Hasta N como paso 1 Hacer 
+         fact<=fact*I;
+      FinPara
+  Escribir"El factorial es: ", fact;
+   SiNo 
+  Escribir "No existe factorial":
+   FinSi
+FinFactorial
